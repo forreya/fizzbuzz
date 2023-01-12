@@ -19,5 +19,14 @@ describe 'fizzbuzz' do
   it 'returns the number when passed 1' do
     expect(fizzbuzz(1)).to eq 1
   end
-end
 
+  it 'returns correct array value when passed 1 to 10' do
+    answers = []
+    (1..10).each {
+      |number|
+      answers.push(fizzbuzz(number))
+    }
+    expect(answers).to eq [1,2,'fizz',4,'buzz','fizz',7,8,'fizz','buzz']
+  end
+
+end

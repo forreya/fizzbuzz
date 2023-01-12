@@ -1,4 +1,4 @@
-# fizzbuzz
+# Fizzbuzz
 
 The first pair programming exercise from the pre-course of Makers academy.
 
